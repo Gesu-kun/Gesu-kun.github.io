@@ -3,12 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>My New Hugo Site - 404 Page not found </title>
+    <title>Gesu blog - 404 Page not found </title>
     
     
-    <meta content="My New Hugo Site" name="keywords">
+    <meta content="Gesu blog" name="keywords">
     
-    <meta content="My New Hugo Site - A website called My New Hugo Site" name="description">
+    <meta content="Gesu blog - A website called Gesu blog" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -17,6 +17,21 @@
 
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
     
 
     <link rel="stylesheet" href="/layui/css/layui.css">
@@ -38,9 +53,11 @@
     <header class="layui-header layui-bg-cyan">
 
     
+        <a href=""><img src="erblog/static/self/img/icon.jpg" class="layui-nav-img" style="margin-left:10px;margin-top:-10px"></a>
+    
     
     <a class="nav-self-logo" href="/">
-        My New Hugo Site
+        Gesu blog
     </a>
 
     <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
@@ -87,7 +104,7 @@ layui.use('element', function(){
     
     
     <div class="layui-container">
-        <p class="copyright">&copy; All rights reserved. Powered by <a href='https://gohugo.io' style='color:#FFFFFF'>Hugo</a> and <a href='https://github.com/ertuil/erblog' style='color:#FFFFFF'>Erblog</a>.</p>
+        <p class="copyright">Copylight © 2020, Gesu</p>
     </div>
 </footer>
 </body>
